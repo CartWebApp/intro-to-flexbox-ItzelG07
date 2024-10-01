@@ -30,56 +30,64 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start;
-  height: 100vh
-  align-content: flex-start;
-  align-content: center;
-  align-content: space-between;
+  align-items: flex-end;
   align-content: space-around;
-  align-self: stretch;
-  border:10px solid goldenrod;
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 10px solid goldenrod;
 }
 
 [class^="box"] {
-    width: 33.33%
+  width: 33.33%
 }
 
 .box1 {
-  width: 98%
+  width: 98%;
+  height: 23%;
 }
 
 .box2 {
-  width: 48%
+  width: 48%;
+height: 23%;
 }
+
 .box3 {
-  width: 48%
-
+  width: 48%;
+height: 23%;
 }
+
 .box4 {
-  width: 23%
-
+  width: 23%;
+height: 23%;
 }
+
 .box5 {
-  width: 23%
-
+  width: 23%;
+  height: 23%;
 }
+
 .box6 {
-  width: 23%
-
+  width: 23%;
+  height: 23%;
 }
+
 .box7 {
-  width: 23%
-
+  width: 23%;
+  height: 23%;
 }
+
 .box8 {
-  width: 31.33%
-
+  width: 31.33%;
+  height: 23%;
 }
+
 .box9 {
-  width: 31.33%
-
+  width: 31.33%;
+  height: 23%;
 }
-.box10 {
-  width: 31.33%
 
+.box10 {
+  width: 31.33%;
+  height: 23%;
 }
